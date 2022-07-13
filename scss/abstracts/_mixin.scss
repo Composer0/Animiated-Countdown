@@ -1,0 +1,10 @@
+@mixin center($width: null, $height: null) {
+    position:fixed;
+    top: 50%;
+    left: 50%;
+}
+@mixin center-absolute($width: null, $height: null) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

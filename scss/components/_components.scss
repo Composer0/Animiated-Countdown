@@ -1,0 +1,60 @@
+.counter {
+    @include center;
+    text-align: center;
+    transform: $transform-default;
+
+    &.hide {
+        transform: $transform-0;
+        animation: hide .2s ease-out;
+    }
+}
+
+.final {
+    @include center;
+    transform: $transform-0;
+    text-align: center;
+
+    &.show{
+        transform: $transform-1;
+        animation: show .2s ease-out;
+    }
+}
+
+#replay{
+    background-color: #3498db;
+    border-radius: 3px;
+    border: none;
+    color: aliceblue;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s;
+    
+    & span{
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.3s;
+    
+        &:after{
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+    }
+    
+    &:hover span{
+        padding-right: 25px;
+  
+        &:after{
+            opacity: 1;
+            right: 0;
+        }
+    }
+}
+
+  

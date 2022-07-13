@@ -1,0 +1,22 @@
+footer {
+    color: $color-grey-text;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 3rem;
+    
+    & a{
+        color: $color-grey-text;
+        cursor: pointer;
+        text-decoration: none;
+        
+        &:hover{
+            color: #3498db;
+            transform: rotate(20deg);
+        }
+        
+        &:visited{
+            color: $color-grey-text;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "nodesass": "^0.0.2-security"
+  },
+  "name": "35.-image-carousel",
+  "version": "1.0.0",
+  "main": "script.js",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "scripts": {
+    "compile:sass": "node-sass scss/main.scss css/styles.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
