@@ -1,4 +1,7 @@
 # Animiated-Countdown
+
+https://composer0.github.io/Animiated-Countdown/
+
 Animated countdown that features a reset button. Runs through '.nums span' node list to create a countdown. CSS translate is used to create rotation effect as the numbers enter into view.
 
 ##Sass
